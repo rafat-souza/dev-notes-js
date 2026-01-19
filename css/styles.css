@@ -39,3 +39,46 @@ header {
 #search-input::placeholder {
   color: #ddd;
 }
+
+#export-notes {
+  background-color: #333;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#export-notes:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* New Note Form */
+
+#add-note-container {
+  display: flex;
+  width: 400px;
+  margin: 1rem auto 0;
+  gap: 1rem;
+}
+
+#add-note-container input,
+#add-note-container button {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#add-note-container input {
+  flex: 1;
+  background-color: transparent;
+  border: 1px solid #525356;
+  color: #fff;
+}
+
+#add-note-container button {
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+}
